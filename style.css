@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
     background: #162458;
+    text-align: center;
 }
 
 form{
@@ -38,7 +39,8 @@ input[type="submit"]{
 
 #eventsContainer{
     border-radius: 10px;
-    width: 500px;
+    max-width: 600px;
+    min-width: 350px;
     margin: 100px auto;
     display: flex;
     flex-direction: column;
